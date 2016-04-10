@@ -35,14 +35,14 @@
             // 
             this.board1.Location = new System.Drawing.Point(12, 12);
             this.board1.Name = "board1";
-            this.board1.Size = new System.Drawing.Size(885, 837);
+            this.board1.Size = new System.Drawing.Size(885, 871);
             this.board1.TabIndex = 0;
             // 
             // PlayForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(919, 912);
+            this.ClientSize = new System.Drawing.Size(1235, 903);
             this.Controls.Add(this.board1);
             this.Name = "PlayForm";
             this.Text = "PlayForm";
