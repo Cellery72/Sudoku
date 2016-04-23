@@ -57,7 +57,6 @@ namespace Sudoku
 
             return retValue;
         }
-
         
     }
 }

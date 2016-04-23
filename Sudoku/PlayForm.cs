@@ -12,6 +12,8 @@ namespace Sudoku
 {
     public partial class PlayForm : Form
     {
+        public string Difficulty { get; set; }
+
         public PlayForm()
         {
             InitializeComponent();
