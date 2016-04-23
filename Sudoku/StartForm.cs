@@ -18,7 +18,6 @@ namespace Sudoku
             {
                 string difficulty = checkedButton.Name;
                 PlayForm play = new PlayForm();
-                play.Difficulty = difficulty;
                 play.Show();
             }
             else

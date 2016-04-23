@@ -28,29 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tbDigit = new System.Windows.Forms.TextBox();
+            this.tbValue = new System.Windows.Forms.TextBox();
             this.panel = new System.Windows.Forms.Panel();
             this.panel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tbDigit
+            // tbValue
             // 
-            this.tbDigit.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbDigit.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbDigit.Location = new System.Drawing.Point(-1, 3);
-            this.tbDigit.MaxLength = 1;
-            this.tbDigit.Multiline = true;
-            this.tbDigit.Name = "tbDigit";
-            this.tbDigit.Size = new System.Drawing.Size(49, 46);
-            this.tbDigit.TabIndex = 0;
-            this.tbDigit.Text = "1";
-            this.tbDigit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbValue.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbValue.Location = new System.Drawing.Point(-1, 3);
+            this.tbValue.MaxLength = 1;
+            this.tbValue.Multiline = true;
+            this.tbValue.Name = "tbValue";
+            this.tbValue.Size = new System.Drawing.Size(49, 46);
+            this.tbValue.TabIndex = 0;
+            this.tbValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel
             // 
             this.panel.BackColor = System.Drawing.Color.White;
             this.panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel.Controls.Add(this.tbDigit);
+            this.panel.Controls.Add(this.tbValue);
             this.panel.Location = new System.Drawing.Point(0, 0);
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(50, 50);
@@ -71,7 +70,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox tbDigit;
+        private System.Windows.Forms.TextBox tbValue;
         private System.Windows.Forms.Panel panel;
     }
 }

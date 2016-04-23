@@ -1,24 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace Sudoku
 {
     public partial class Square : UserControl
     {
-        private int _value;
+        // Value of Square
+        public int Value { get; set; }
+        // FinalValue is Calculated Value by system before game commences to assert there is a possible solution.. 
+        public int FinalValue { get; set; }
 
 
         public Square()
         {
             InitializeComponent();
         }
-        
     }
 }

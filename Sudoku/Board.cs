@@ -6,11 +6,9 @@ namespace Sudoku
 {
     public partial class Board : UserControl
     {
-        public enum modes { PreStart,Started,InProgress,Finished};
         private List<Square> selectedRow = new List<Square>();
         private List<Square> selectedColumn = new List<Square>();
         private List<Square> selectedSquare = new List<Square>();
-        private string Difficulty = "Easy";
 
         public Board()
         {
@@ -41,22 +39,16 @@ namespace Sudoku
 
         }
 
+        private void SquareValidation(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
+
 
         // ***************************
         // Private Functions
         // ***************************
 
-        private bool RowIsValid()
-        {
-            bool retValue = false;
 
-            // Determine if a Row contains values 1 through 9 and no duplicates. 
-
-
-
-
-            return retValue;
-        }
-        
     }
 }

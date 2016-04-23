@@ -43,7 +43,7 @@
             // 
             this.btnPlay.Location = new System.Drawing.Point(42, 102);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(121, 32);
+            this.btnPlay.Size = new System.Drawing.Size(55, 32);
             this.btnPlay.TabIndex = 0;
             this.btnPlay.Text = "Play";
             this.btnPlay.UseVisualStyleBackColor = true;
@@ -53,7 +53,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(42, 140);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 32);
+            this.button2.Size = new System.Drawing.Size(55, 40);
             this.button2.TabIndex = 1;
             this.button2.Text = "View High Scrores";
             this.button2.UseVisualStyleBackColor = true;
