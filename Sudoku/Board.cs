@@ -135,7 +135,6 @@ namespace Sudoku
             return retRow;
 
         }
-
         private List<Square> buildSelected9(Square sq)
         {
             List<Square> ret9 = new List<Square>();
@@ -205,10 +204,6 @@ namespace Sudoku
 
             return false;
         }
-
-
-
-
         private void ShowValues()
         {
             foreach(Square sq in Grid)
