@@ -7,6 +7,9 @@ namespace SudokuTests
     [TestClass]
     public class BoardTests
     {
+        Board board1 = new Board();
+
+
         /// <summary>
         /// Test Method will check all Squares on the Board have a valid (numeric - int) value in the FinalValue property set. 
         /// Sqaure.FinalValue() contains the value calculated by the system.
@@ -14,6 +17,14 @@ namespace SudokuTests
         [TestMethod]
         public void AssertSudokuBoardIsFull()
         {
+            board1.PopulateBoard();
+
+
+            foreach(var sq in board1.Grid)
+            {
+                Square sd = sq;
+                Assert.AreNotEqual(0,sq.FinalValue);
+            }
 
 
         }
@@ -55,7 +66,7 @@ namespace SudokuTests
         public void Small9IsClean()
         {
 
-
         }
+
     }
 }

@@ -22,7 +22,8 @@ namespace Sudoku
 
         public void SetFinalValue()
         {
-            tbValue.Text = FinalValue.ToString();
+            if(FinalValue!=null || FinalValue!=0)
+                tbValue.Text = FinalValue.ToString();
         }
         object IEnumerator.Current
         {

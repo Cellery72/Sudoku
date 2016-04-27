@@ -37,6 +37,7 @@ namespace Sudoku
             lblTime.Show();
             GameBoard.Enabled = true;
             GameBoard.Difficulty = Difficulty;
+            GameBoard.PopulateBoard();
 
         }
 
